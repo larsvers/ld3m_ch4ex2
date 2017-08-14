@@ -138,7 +138,7 @@ function ready(error, us) {
 
 // Load data sources
 d3.queue()
-	.defer(d3.json, 'data/us/us.json')
+	.defer(d3.json, 'data/us.json')
 	.await(ready);
 
 
